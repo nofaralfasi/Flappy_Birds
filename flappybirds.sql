@@ -2,8 +2,8 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
-CREATE DATABASE IF NOT EXISTS flappybirds DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `flappybirds`;
+CREATE DATABASE IF NOT EXISTS flappybirds;
+USE flappybirds;
 
 
 CREATE TABLE IF NOT EXISTS highscores(
@@ -11,4 +11,4 @@ CREATE TABLE IF NOT EXISTS highscores(
   hs_player VARCHAR(8) NOT NULL,
   hs_score INT NOT NULL,
   PRIMARY KEY (hs_id)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB;
