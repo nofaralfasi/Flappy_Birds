@@ -10,5 +10,21 @@
         <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="jdbc:hsqldb:file:C:/Users/HP/WebstormProjects/Nofar_Alfasi-Flappy_Birds\flappybirds/" uuid="e3daf9bd-e7ae-4ce0-84e8-e98e5342763b">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/../Nofar_Alfasi-Flappy_Birds\flappybirds/</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sqlite_flappybirds" uuid="5600134e-d619-4499-9813-7431e3471bce">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../Nofar_Alfasi-Flappy_Birds\sqlite_flappybirds</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>

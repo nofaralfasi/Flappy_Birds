@@ -4,7 +4,13 @@ SET time_zone = "+00:00";
 
 CREATE DATABASE IF NOT EXISTS 'flappybirds';
 USE 'flappybirds';
-
+--
+--CREATE TABLE IF NOT EXISTS 'highscores'(
+-- 'hs_id' integer PRIMARY KEY AUTOINCREMENT,
+--   'hs_player' text NOT NULL,
+-- 'hs_score' integer NOT NULL,
+-- table_constraint
+--);
 
 CREATE TABLE IF NOT EXISTS 'highscores'(
   'hs_id' INT NOT NULL AUTO_INCREMENT,
